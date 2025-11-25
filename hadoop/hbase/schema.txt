@@ -1,0 +1,12 @@
+Table: student_marks
+
+RowKey Format:
+    studentId#subject
+
+Column Family:
+    marks
+
+Columns inside CF "marks":
+    marks:score
+    marks:exam
+    marks:date
